@@ -21,3 +21,13 @@ package that works out of the box. Once acquainted with RAT, it is easy to
 customize the geometry elements, physics details, data structure, analysis
 tools, etc., to suit your experiment's needs.
 
+
+Usage Instructions (added by Deepak Samuel):
+--------------------------------------------
+- Required: ROOT 5.34 (with python, minuit and gsl_shared options enabled) & Geant4.10.01
+- Make sure that thisroot.sh and geant4.sh are executed or paths to ROOT and Geant4 
+are set correctly prior to running "rat".
+- Install Scons in Ubuntu: sudo apt-get install scons
+- After cloning this repository: cd rat-pac and do './configure' followed by 'env.sh'
+- Now run 'scons'
+- Once installation is completed, run 'rat'
